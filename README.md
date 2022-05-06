@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-view](design/3-column-preview-card-desktop-view.jpg)
-![mobile-view1](design/3-column-preview-card-mobile-view1.jpg)
-![mobile-view2](design/3-column-preview-card-mobile-view2.jpg)
+![desktop-view](https://github.com/jcasare/FrontEndChallenges-3-column-preview-card-component/blob/main/design/3-column-preview-card-desktop-view.JPG?raw=true)
+![mobile-view1](https://github.com/jcasare/FrontEndChallenges-3-column-preview-card-component/blob/main/design/3-column-preview-card-mobile-view1.JPG?raw=true)
+![mobile-view2](https://github.com/jcasare/FrontEndChallenges-3-column-preview-card-component/blob/main/design/3-column-preview-card-mobile-view2.JPG?raw=true)
 ### Links
 
 - Solution URL: (https://github.com/jcasare/FrontEndChallenges-3-column-preview-card-component)
