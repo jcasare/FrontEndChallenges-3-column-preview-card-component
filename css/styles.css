@@ -1,0 +1,163 @@
+
+*{
+  padding:0;
+  margin: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Lexend Deca',sans-serif;
+  width:100%;
+  height:100vh;
+  font-size: 15px;
+  background-color: white;
+  background-color: hsl(0, 0%, 90%);
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Big Shoulders Display',cursive;
+  color:white;
+  padding-bottom: 1.6rem;
+}
+img{
+  padding-bottom: 1rem;
+}
+.page-wrapper{
+  display: flex;
+  max-width: 890px;
+  max-height: 90vh;
+  margin: 0 auto;
+  border-radius: 5px;
+  color:white;
+  color:hsl(0, 0%, 85%);
+  line-height: 1.6;
+}
+.sub-card{
+  padding:2rem 2.8rem 1rem;
+}
+.sedans{
+  border-radius: 5px 0 0 5px;
+  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs{
+  background-color: green;
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: green;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+.btn{
+  margin:4.5rem 0 1rem 0;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 28px;
+  border-style: none;
+  cursor: pointer;
+}
+.sedans .btn{
+  color: hsl(31,77%, 52%);
+}
+.suvs .btn{
+  color: hsl(184, 100%, 22%);
+}
+.luxury .btn{
+  color: hsl(179, 100%, 13%);
+}
+.btn:hover{
+  border-style: solid;
+  border-color: white;
+  background-color: transparent;
+  color:white;
+}
+
+.attribution{
+  color:black;
+  text-align: center;
+}
+/* Small laptop design view */
+@media only screen  and (max-width:961px) {
+body{
+  font-size: 13px;
+}
+.page-wrapper{
+  max-width: 760px;
+  max-height: 400px;
+}
+.sub-card{
+  padding:1.4rem 2.3rem 1rem;
+}
+
+}
+@media only screen and (max-width:764px) {
+body{
+  font-size:11.5px;
+}
+.page-wrapper{
+  max-width: 640px;
+  max-height: 90vh;
+}
+.sub-card{
+  padding: 1.4rem 1.7rem 1rem;
+}
+.attribution{
+  text-align: center;
+}
+
+}
+/* Tablet view design */
+
+@media only screen and (max-width:642px) {
+  body{
+    font-size: 9.5px;
+  }
+  .page-wrapper{
+    max-width:490px;
+    max-height: 90vh;
+  }
+  .sub-card{
+  padding:1.4rem 1rem 1rem;
+  }
+  .attribution{
+    text-align: center;
+  }
+}
+@media only screen and (max-width:64) {
+
+}
+/* Mobile design view  */
+@media only screen and (max-width:510px) {
+  body{
+    width:100%;
+    max-height: 100%;
+    height: 1020px;
+    font-size: 11px;
+    overflow: scroll;
+  }
+  .page-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    max-width: 210px;
+  }
+  .sub-card{
+    padding:1.4rem 1.4rem 1rem;
+  }
+  .btn{
+    margin-top: 1.5rem;
+  }
+  .sedans{
+    border-radius: 5px 5px 0 0;
+  }
+  .luxury{
+    border-radius: 0 0 5px 5px;
+  }
+.attribution{
+position: absolute;
+top:0;
+}
